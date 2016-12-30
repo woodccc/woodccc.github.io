@@ -260,7 +260,7 @@ Bob进入模块
 <p>方法名应当是动词或动词短语，如postPayment、deletePage或save。</p>
 </blockquote>
 <h3 id="11-每个概念对应一个词"><a href="#11-每个概念对应一个词" class="headerlink" title="11.每个概念对应一个词"></a>11.每个概念对应一个词</h3><p>例如在新建数据集里，有这些组件，但实际上都是一个概念，表示新建。应当用同一个名字来表述，create或者add取其一。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;AddDataSetRDB /&gt;</div><div class="line">&lt;AddDataSetReplacement /&gt;</div><div class="line">&lt;AddDataSetStep /&gt;</div><div class="line">&lt;CreateDataSetHome /&gt;</div><div class="line">&lt;CreateDataSetItem /&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;AddDataSetRDB /&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">AddDataSetReplacement</span> /&gt;</span></span></div><div class="line"><span class="tag">&lt;<span class="name">AddDataSetStep</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">CreateDataSetHome</span> /&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">CreateDataSetItem</span> /&gt;</span></div></pre></td></tr></table></figure>
 <h3 id="12-使用专业的单词"><a href="#12-使用专业的单词" class="headerlink" title="12.使用专业的单词"></a>12.使用专业的单词</h3><p>同样是从一个url获取page，可能是从本地、网上获取，或者是从网上下载。看起来都可以用getPage来表示，但是请使用专业的单词来区分一下。例如：</p>
 <ul>
 <li>如果从本地获取，且轻量级的</li>
@@ -456,6 +456,20 @@ Bob进入模块
 </article>
 
   
+<nav id="article-nav">
+  
+    <a href="/2016/12/30/代码可读性-格式和测试/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          代码可读性-格式和测试
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
 
 
 
@@ -513,6 +527,10 @@ Bob进入模块
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">React</a>
+              </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)">代码可读性</a>
