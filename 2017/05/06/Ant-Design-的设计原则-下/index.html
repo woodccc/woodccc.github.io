@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <!--Description-->
+    
+        <meta name="description" content="每个人都很忙，谢谢你有空来看看">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Dragon Orange">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Ant Design 的设计原则(下)"/>
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="woodccc"/>
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="undefined"/>
+    
+
+    <!-- Title -->
+    
+    <title>Ant Design 的设计原则(下) - woodccc</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Google Analytics -->
+    
+
+
+</head>
+
+<body>
+
+<!-- Menu -->
+<!-- Navigation -->
+<header>
+    <div class="logo">
+        <a href="/">woodccc</a>
+    </div><!-- end logo -->
+
+    <div id="menu_icon"></div>
+    <nav>
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/archives">Archives</a>
+            </li>
+            
+        </ul>
+    </nav><!-- end navigation menu -->
+
+    <div class="footer clearfix">
+        <ul class="social clearfix">
+            
+            
+            
+            
+            
+            
+        </ul><!-- end social -->
+
+        <div class="rights">
+            <p>Copyright © 2014 magnetic.</p>
+            <p>Template by <a href="http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/">Pixelhint.com</a></p>
+            <p>Hexo Theme by <a href="http://www.codeblocq.com/">Jonathan K.</a></p>
+        </div><!-- end rights -->
+    </div ><!-- end footer -->
+</header><!-- end header -->
+
+<!-- Main Content -->
+<section class="main clearfix">
+
+    <section class="top" style="background: url('/images/default_post_page_cover_image.jpg');">
+        <div class="wrapper content_header clearfix">
+            
+
+<div class="work_nav">
+
+    <ul class="btn clearfix">
+        
+        <li><a class="previous disabled"></a></li>
+        
+        <li><a href="/" class="grid" data-title="Portfolio"></a></li>
+        
+        <li><a href="/2017/03/17/Ant-Design-的十大设计原则/" class="next" data-title="Ant Design 的十大设计原..."></a></li>
+        
+    </ul>
+
+</div><!-- end work_nav -->
+            <h1 class="title">Ant Design 的设计原则(下)</h1>
+        </div>
+    </section><!-- end top -->
+
+    <section class="wrapper">
+        <div class="content">
+
+            <!-- Gallery -->
+            
+
+            <!-- Content -->
+            <ul>
+<li>图标</li>
+<li>字体</li>
+<li><strong>反馈</strong></li>
+<li><strong>布局</strong></li>
+<li><strong>色彩</strong></li>
+<li><strong>文案</strong></li>
+</ul>
+<h2 id="图标"><a href="#图标" class="headerlink" title="图标"></a>图标</h2><ul>
+<li>命名规则</li>
+</ul>
+<h3 id="图标名-形状-描线-方向"><a href="#图标名-形状-描线-方向" class="headerlink" title="[图标名]-[形状?]-[描线?]-[方向?]"></a>[图标名]-[形状?]-[描线?]-[方向?]</h3><p><img src="/images/antdDesignPrinciplesSecond/iconNameRule.png" alt="iconNameRule"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/iconNaming.png" alt="iconNaming"></p>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><ul>
+<li>font-family</li>
+<li>line-height</li>
+<li>color</li>
+</ul>
+<ul>
+<li>font-family</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">font-family</span>: <span class="comment">/* 1 */</span> <span class="selector-tag">-apple-system</span>, <span class="selector-tag">BlinkMacSystemFont</span>,</div><div class="line">             <span class="comment">/* 2 */</span> "<span class="selector-tag">Segoe</span> <span class="selector-tag">UI</span>", <span class="selector-tag">Roboto</span>, <span class="selector-tag">Helvetica</span>, "<span class="selector-tag">PingFang</span> <span class="selector-tag">SC</span>",</div><div class="line">                     "<span class="selector-tag">Hiragino</span> <span class="selector-tag">Sans</span> <span class="selector-tag">GB</span>", "<span class="selector-tag">Microsoft</span> <span class="selector-tag">YaHei</span>", <span class="selector-tag">SimSun</span>,</div><div class="line">             <span class="comment">/* 3 */</span> "<span class="selector-tag">Helvetica</span> <span class="selector-tag">Neue</span>", <span class="selector-tag">sans-serif</span>;</div></pre></td></tr></table></figure>
+<ol>
+<li><p>对应系统 UI 字体</p>
+<ul>
+<li>-apple-system =&gt; Mac OS X 和 iOS San 下 Safari 里的Francisco 字体</li>
+<li>BlinkMacSystemFont =&gt; Mac OS X 下的 Chrome</li>
+</ul>
+</li>
+<li><p>对应一些其他常见系统</p>
+<ul>
+<li>Segoe UI =&gt; Windows 和 Windows Phone</li>
+<li>Roboto =&gt; Android 和 newer Chrome OS’</li>
+</ul>
+</li>
+<li><p>备用字体</p>
+</li>
+</ol>
+<ul>
+<li>行高公式: 中文行高 = 字号 x 1.5倍（~ 1.8）， 英文 = 字号 x 1.2倍</li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/lineHeight.png" alt="lineHeight"></p>
+<ul>
+<li>字体颜色</li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/fontColor.png" alt="fontColor"></p>
+<h2 id="反馈"><a href="#反馈" class="headerlink" title="反馈"></a>反馈</h2><h4 id="帮助用户了解应用当前要做什么"><a href="#帮助用户了解应用当前要做什么" class="headerlink" title="帮助用户了解应用当前要做什么"></a><em>帮助用户了解应用当前要做什么</em></h4><ul>
+<li>提示信息</li>
+<li>过程反馈</li>
+<li>结果反馈</li>
+</ul>
+<h3 id="提示信息"><a href="#提示信息" class="headerlink" title="提示信息"></a>提示信息</h3><ul>
+<li>警告提示</li>
+<li>通知提醒</li>
+<li>徽标数</li>
+<li>气泡卡片</li>
+<li>文字提示</li>
+</ul>
+<h4 id="警告提示-gt-Alert"><a href="#警告提示-gt-Alert" class="headerlink" title="警告提示 =&gt; Alert"></a>警告提示 =&gt; Alert</h4><ul>
+<li><code>非阻碍式</code>,<code>顶部</code>,<code>不自动消失</code>，<code>点击关闭</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/alert.png" alt="alert"></p>
+<h4 id="通知提醒-gt-Notification"><a href="#通知提醒-gt-Notification" class="headerlink" title="通知提醒 =&gt; Notification"></a>通知提醒 =&gt; Notification</h4><ul>
+<li><code>重要</code>,<code>复杂</code>, <code>全局性通知</code>,<code>右上角</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Notification.png" alt="Notification"></p>
+<h4 id="徽标数-gt-Badge"><a href="#徽标数-gt-Badge" class="headerlink" title="徽标数 =&gt; Badge"></a>徽标数 =&gt; Badge</h4><ul>
+<li><code>聚合型的消息提示</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Badge.png" alt="Badge"> </p>
+<h4 id="气泡卡片-gt-Popover"><a href="#气泡卡片-gt-Popover" class="headerlink" title="气泡卡片 =&gt; Popover"></a>气泡卡片 =&gt; Popover</h4><ul>
+<li><code>有进一步的描述和相关操作</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Popover.png" alt="Popover"></p>
+<h4 id="文字提示-gt-Tooltip"><a href="#文字提示-gt-Tooltip" class="headerlink" title="文字提示 =&gt; Tooltip"></a>文字提示 =&gt; Tooltip</h4><ul>
+<li><code>精确描述</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Tooltip.png" alt="Tooltip"></p>
+<h3 id="过程反馈"><a href="#过程反馈" class="headerlink" title="过程反馈"></a>过程反馈</h3><ul>
+<li>加载状态进度反馈</li>
+<li>录入反馈</li>
+<li>气泡确认框</li>
+</ul>
+<h4 id="加载状态进度反馈"><a href="#加载状态进度反馈" class="headerlink" title="加载状态进度反馈"></a>加载状态进度反馈</h4><ul>
+<li><code>明确告知加载的状态</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Loading.png" alt="Loading"></p>
+<h4 id="录入反馈"><a href="#录入反馈" class="headerlink" title="录入反馈"></a>录入反馈</h4><ul>
+<li><code>发现并纠正错误</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/input.png" alt="input"></p>
+<h4 id="气泡确认框-gt-Popconfirm"><a href="#气泡确认框-gt-Popconfirm" class="headerlink" title="气泡确认框 =&gt; Popconfirm"></a>气泡确认框 =&gt; Popconfirm</h4><ul>
+<li><code>进一步的确认</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Popconfirm.png" alt="Popconfirm"></p>
+<h3 id="结果反馈"><a href="#结果反馈" class="headerlink" title="结果反馈"></a>结果反馈</h3><ul>
+<li>顶部全局提示反馈</li>
+<li>对话框反馈</li>
+</ul>
+<h4 id="顶部全局提示反馈（Message）"><a href="#顶部全局提示反馈（Message）" class="headerlink" title="顶部全局提示反馈（Message）"></a>顶部全局提示反馈（Message）</h4><ul>
+<li><code>自动消失</code>,<code>顶部</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Message.png" alt="Message"></p>
+<h4 id="对话框反馈"><a href="#对话框反馈" class="headerlink" title="对话框反馈"></a>对话框反馈</h4><ul>
+<li><code>重要的反馈</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/Modal.png" alt="Modal"></p>
+<h2 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h2><ul>
+<li>网站展示页</li>
+<li>控制台页</li>
+<li>列表页</li>
+<li>详情页</li>
+<li>表格页</li>
+<li>表单页</li>
+</ul>
+<h3 id="网站展示页"><a href="#网站展示页" class="headerlink" title="网站展示页"></a>网站展示页</h3><ul>
+<li><code>简短的文案</code>，<code>直观的产品图片</code>,<code>加深用户对产品的理解和记忆</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/homePage.png" alt="homePage"></p>
+<h3 id="控制台页-Dashboard"><a href="#控制台页-Dashboard" class="headerlink" title="控制台页(Dashboard)"></a>控制台页(Dashboard)</h3><ul>
+<li><code>一目了然地将关键信息展示给用户</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/dashboardPage.png" alt="dashboardPage"> </p>
+<h3 id="列表页"><a href="#列表页" class="headerlink" title="列表页"></a>列表页</h3><ul>
+<li><code>并列式展现信息</code>,<code>「可读性」</code>,<code>「可操作性」</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/listPage.png" alt="listPage"></p>
+<h3 id="详情页"><a href="#详情页" class="headerlink" title="详情页"></a>详情页</h3><ul>
+<li><code>大量的基本信息</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/detailPage.png" alt="detailPage"></p>
+<h3 id="表格页"><a href="#表格页" class="headerlink" title="表格页"></a>表格页</h3><ul>
+<li><code>多维信息展示的载体</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/tablePage.png" alt="tablePage"></p>
+<h3 id="表单页"><a href="#表单页" class="headerlink" title="表单页"></a>表单页</h3><ul>
+<li><code>数据录入</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/formPage.png" alt="formPage"></p>
+<h2 id="色彩"><a href="#色彩" class="headerlink" title="色彩"></a>色彩</h2><ul>
+<li>色板</li>
+<li>色彩应用</li>
+</ul>
+<h3 id="色板"><a href="#色板" class="headerlink" title="色板"></a>色板</h3><ul>
+<li>色板由 10 个由浅至深的色彩单元格组成</li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/1colorRed.png" alt="red"><br><img src="/images/antdDesignPrinciplesSecond/2colorGreen.png" alt="green"><br><img src="/images/antdDesignPrinciplesSecond/3colorBlue.png" alt="blue"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/4colorPink.png" alt="pink"><br><img src="/images/antdDesignPrinciplesSecond/5colorOrange.png" alt="orange"><br><img src="/images/antdDesignPrinciplesSecond/6colorPurple.png" alt="purple"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/7colorYellow.png" alt="yellow"><br><img src="/images/antdDesignPrinciplesSecond/8colorCyan.png" alt="Cyan"><br><img src="/images/antdDesignPrinciplesSecond/9colorGrey.png" alt="Grey"></p>
+<h3 id="色彩应用"><a href="#色彩应用" class="headerlink" title="色彩应用"></a>色彩应用</h3><ul>
+<li>品牌色应用</li>
+<li>中性色应用</li>
+<li>功能色应用</li>
+<li>视觉层次</li>
+<li>色彩的易识别性</li>
+</ul>
+<h4 id="品牌色"><a href="#品牌色" class="headerlink" title="品牌色"></a>品牌色</h4><ul>
+<li><code>体现产品特性</code>,<code>传播理念</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/antBrandColor.png" alt="antBrandColor"></p>
+<ul>
+<li><code>不需要与 logo 完全相同</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/antDesignLogo.png" alt="antDesignLogo"></p>
+<h4 id="中性色"><a href="#中性色" class="headerlink" title="中性色"></a>中性色</h4><ul>
+<li><code>关键内容的衬托</code>,<code>功能的引导</code>    </li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/antMiddleColor.png" alt="antMiddleColor"></p>
+<h4 id="功能色"><a href="#功能色" class="headerlink" title="功能色"></a>功能色</h4><ul>
+<li><code>功能信息</code>,<code>状态信息</code></li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/antFunctionColot.png" alt="antFunctionColot"></p>
+<h4 id="视觉层次"><a href="#视觉层次" class="headerlink" title="视觉层次"></a>视觉层次</h4><ul>
+<li>品牌色赋予在重要信息上、衬以大面积的中性色</li>
+<li>界面用色建议不超过三种</li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/noMoreThanThreeColor.png" alt="noMoreThanThreeColor">    </p>
+<p><img src="/images/antdDesignPrinciplesSecond/rightColor.png" alt="rightColor"></p>
+<h4 id="色彩的易识别性"><a href="#色彩的易识别性" class="headerlink" title="色彩的易识别性"></a>色彩的易识别性</h4><ul>
+<li>色彩更容易被<em>色盲用户</em>识别</li>
+</ul>
+<p><a href="http://leaverou.github.io/contrast-ratio/#%23454545-on-%23fff" target="_blank" rel="external">色彩对比值校验工具</a></p>
+<p><img src="/images/antdDesignPrinciplesSecond/dataSetCard.png" alt="dataSetCard"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/dataSetCardColorRate.png" alt="dataSetCardColorRate"></p>
+<blockquote>
+<p>操作类的色彩搭配都应满足颜色对比值 <code>3:1</code> 的最低标准</p>
+</blockquote>
+<h2 id="文案"><a href="#文案" class="headerlink" title="文案"></a>文案</h2><h3 id="明确表述立足点"><a href="#明确表述立足点" class="headerlink" title="明确表述立足点"></a>明确表述立足点</h3><p><img src="/images/antdDesignPrinciplesSecond/textWrong.png" alt="textWrong"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/textRight.png" alt="textRight"></p>
+<h3 id="精简语句"><a href="#精简语句" class="headerlink" title="精简语句"></a>精简语句</h3><p><img src="/images/antdDesignPrinciplesSecond/saveWrong.png" alt="saveWrong"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/saveRight.png" alt="saveRight"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/sendEmailWrong.png" alt="sendEmailWrong"></p>
+<h3 id="表述一致"><a href="#表述一致" class="headerlink" title="表述一致"></a>表述一致</h3><p><img src="/images/antdDesignPrinciplesSecond/attactWrong.png" alt="attactWrong"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/attactRight.png" alt="attactRight"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/textOrderWrong.png" alt="textOrderWrong"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/textOrderRight.png" alt="textOrderRight"></p>
+<ul>
+<li><p>重要的信息放在显著位置</p>
+<p>  <img src="/images/antdDesignPrinciplesSecond/paySuccess.png" alt="paySuccess">    </p>
+</li>
+<li><p>重要的信息放在显著位置</p>
+<p>  <img src="/images/antdDesignPrinciplesSecond/paySuccess2.png" alt="paySuccess">    </p>
+</li>
+</ul>
+<h3 id="语气"><a href="#语气" class="headerlink" title="语气"></a>语气</h3><ul>
+<li><p>建议不要使用『您』，太过客气，让用户感觉有些疏远<br><img src="/images/antdDesignPrinciplesSecond/youWrong.png" alt="youWrong"></p>
+</li>
+<li><p>友好、尊重用户:多给用户支持与鼓励，不要命令和强迫用户</p>
+</li>
+</ul>
+<p><img src="/images/antdDesignPrinciplesSecond/setPassword2.png" alt="setPassword2"></p>
+<p><img src="/images/antdDesignPrinciplesSecond/setPassword.png" alt="setPassword"></p>
+<h2 id="That’s-All-Thanks"><a href="#That’s-All-Thanks" class="headerlink" title="That’s All , Thanks"></a>That’s All , Thanks</h2>
+
+            <!-- Tags -->
+            
+
+
+<div class="tags">
+    <a href="/tags/设计原则/">设计原则</a>
+</div>
+
+
+
+            <!-- Comments -->
+            <div>
+                
+
+
+            </div>
+        </div><!-- end content -->
+    </section>
+</section><!-- end main -->
+
+<!-- After footer scripts -->
+
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Custom Code -->
+<script src="/js/main.js"></script>
+
+<!-- Gallery -->
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+</body>
+
+</html>
